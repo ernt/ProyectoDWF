@@ -1,50 +1,345 @@
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="../../../../../assets/images/slideshow1-1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption">
-            <span class="lead">up to 70% off</span>
-            <h1 class="mt-2 mb-5"><span class="text-color">Classic</span> Style</h1>
-            <a href="#" class="btn btn-main">Shop Now</a>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="../../../../../assets/images/slideshow1-2.jpg" class="d-block w-100" alt="...">
-       <div class="carousel-caption">
-        <span class="lead">Trendy dress</span>
-        <h1 class="mt-2 mb-5"><span class="text-color">Winter </span>Collection</h1>
-        <a href="#" class="btn btn-main">Shop Now</a>
-       </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../../../../../assets/images/slideshow1-3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption">
-            <span class="lead">up to 70% off</span>
-            <h1 class="mt-2 mb-5"><span class="text-color">Classic</span> Style</h1>
-            <a href="#" class="btn btn-main">Shop Now</a>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+<app-header></app-header>
+<app-nav></app-nav>
+  <div class="productos-destacados">
+    Productos Destacados
   </div>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+       
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/111.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Vestido azul</h4>
+                    <p class="item2-price"><a>$400.00</a> <span>$369.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/222.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Camisa azul</h4>
+                    <p class="item2-price"><a>$25.00</a> <span>$23.99</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>		
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/322.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Vestido Azul Claro</h4>
+                    <p class="item2-price"><a>$899.00</a> <span>$649.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>								
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/444.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Blusa Roja</h4>
+                    <p class="item2-price"><a>$315.00</a> <span>$250.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/tenis.jpeg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Tenis nike </h4>
+                    <p class="item2-price"><a>$289.00</a> <span>$269.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/adidas.jpeg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Tenis Adidas</h4>
+                    <p class="item2-price"><a>$1099.00</a> <span>$869.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/adidas2.jpeg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Tenis adidas claros</h4>
+                    <p class="item2-price"><a>$109.00</a> <span>$99.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/chamarra negra.jpeg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Chamarra negra</h4>
+                    <p class="item-price"><a>$599.00</a> <span>$569.00</span></p>
+                    <div class="star2-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>						
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/chamarraroja.jpeg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Chamarra roja</h4>
+                    <p class="item2-price"><a>$369.00</a> <span>$349.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/chamarraverdemilita.jpeg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Chamarra verde Militar</h4>
+                    <p class="item2-price"><a>$315.00</a> <span>$250.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/sudaderaverde.jpeg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Sudadera Verde</h4>
+                    <p class="item2-price"><a>$450.00</a> <span>$418.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>	
+              <div class="col-sm-3">
+                <div class="thumb2-wrapper">
+                  <div class="img2-box">
+                    <img src="../../../../../assets/images/images.jpeg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb2-content">
+                    <h4>Tenis Vans</h4>
+                    <p class="item2-price"><a>$350.00</a> <span>$330.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn2 btn-primary">Add to Cart</a>
+                  </div>						
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
   <div class="container-anuncios">
-    <img src="https://thenorthfacemx.vtexassets.com/arquivos/homeNwArr.jpg"  width="60%" height="30%">
+    <img src="../../../../../assets/images/deskNew_HD.jpg"  width="60%" height="30%">
+    <div class="container-a-text">
+    <h3>Por siempre fleece </h3>
+<p >Sin importar el clima, los ideales para todos los días.</p>
+<div class="container-buton">
+  <a href="#" class="btn btn-main ">Hombre</a>
+  <a href="#" class="btn btn-main ">Mujer</a>
+  
+</div>
+
+
+    </div>
+  </div>
+
+  <div class="container-anuncios-left">
+    <img src="../../../../../assets/images/homeNwArr.jpg"  width="60%" height="30%">
     <div class="container-a-text">
     <h3>New Arrivals</h3>
 <p >Descubre lo mas nuevo para tus proximas aventuras</p>
-<a href="#" class="btn ">Hombre</a>
+<div class="container-buton">
+  <a href="#" class="btn btn-main ">Hombre</a>
+  <a href="#" class="btn btn-main ">Mujer</a>
+  
+</div>
+
+
     </div>
   </div>
+
+  <div class="container-anuncios">
+    <img src="../../../../../assets/images/tenisTNFD.jpg"  width="60%" height="30%">
+    <div class="container-a-text">
+    <h3>El par perfecto</h3>
+<p >Mantén tus pies cálidos y cómodos en todo momento con nuestra nueva colección de calzado de temporada.</p>
+<div class="container-buton">
+  <a href="#" class="btn btn-main ">Hombre</a>
+  <a href="#" class="btn btn-main ">Mujer</a>
+  
+</div>
+
+
+    </div>
+  </div>
+  <app-footer></app-footer>
